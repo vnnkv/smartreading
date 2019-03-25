@@ -1,0 +1,462 @@
+
+/*
+
+fonts
+customize bootstrap
+base
+page_header
+composition
+buy
+
+max 992px
+### page_header
+### composition
+
+max 768px
+### base
+### page_header
+### composition
+
+max 576px
+### base
+### page_header
+### composition
+### buy
+
+orientation: portrait
+### page_header
+
+*/
+
+/*fonts*/
+@font-face {
+	font-family: 'DIN_Condensed';
+	src: url('fonts/DIN Condensed.eot');
+	src:  url('../fonts/DIN Condensed.ttf') format('truetype'), url('fonts/DIN Condensed.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Proxima_Nova_Bold';
+	src: url('fonts/Proxima Nova Bold.eot');
+	src:  url('../fonts/Proxima Nova Bold.ttf') format('truetype'), url('fonts/Proxima Nova Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Proxima_Nova_Regular';
+	src: url('fonts/Proxima Nova Regular.eot');
+	src:  url('../fonts/Proxima Nova Regular.ttf') format('truetype'), url('fonts/Proxima Nova Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Proxima_Nova_Semibold';
+	src: url('fonts/Proxima Nova Semibold.eot');
+	src:  url('../fonts/Proxima Nova Semibold.ttf') format('truetype'), url('fonts/Proxima Nova Semibold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*end fonts*/
+
+
+/*customize bootstrap*/
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 103.75vh;
+    }
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+}
+.btn-secondary {
+    font-family: 'Proxima_Nova_Bold';
+    border-color: 1rem solid #000;
+    background-color: transparent;
+    color: #000;
+    padding-top: 25rem;
+}
+.btn {
+    font-size: 16rem;
+}
+
+/*end customize bootstrap*/
+
+/*base*/
+html {
+    font-family: 'Proxima_Nova_Regular';
+    font-size: 0.13vh;
+}
+html, body {
+    overflow-x: hidden; 
+}
+body {
+    font-size: 16rem;
+}
+
+h1 {
+    font-family: 'Proxima_Nova_Semibold';
+    font-size: 40rem;
+    text-align: center;
+}
+h2 {
+    font-family: 'DIN_Condensed';
+    font-size: 40rem;
+    text-align: center;
+}
+h3 {
+    font-family: 'DIN_Condensed';
+    font-size: 32rem;
+    text-align: center;
+}
+p {
+    font-size: 16rem;
+    margin-bottom: 16rem;
+}
+a {
+    font-size: 16rem;
+}
+input {
+    padding: 7rem;
+    border-radius: 3rem;
+    outline: none;
+    width: 100%;
+    border: 1rem solid #000;
+    margin-bottom: 15rem;
+    margin-top: 7rem;
+}
+textarea {
+    padding: 7rem;
+    border-radius: 3rem;
+    outline: none;
+    width: 100%;
+    border: 1rem solid #000;
+    margin-bottom: 15rem;
+    margin-top: 7rem;
+}
+.line {
+    width: 100%;
+    color: #e5e5e5;
+    height: 2rem;
+    margin-top: 16rem;
+    margin-bottom: 16rem;
+}
+.button_cta {
+    background: #fdbc3a; /* Old browsers */
+    background: -moz-linear-gradient(top, #fdbc3a 0%, #ffa21c 100%); 
+    background: -webkit-linear-gradient(top, #fdbc3a 0%,#ffa21c 100%); 
+    background: linear-gradient(to bottom, #fdbc3a 0%,#ffa21c 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdbc3a', endColorstr='#ffa21c',GradientType=0 ); 
+    border-radius: 3rem;
+    color: #fff;
+    font-family: 'Proxima_Nova_Bold';
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.button_cta:hover {
+    border-radius: 3rem;
+    color: #fff;
+    font-family: 'Proxima_Nova_Bold';
+    text-decoration: none;
+    box-shadow: 0 0 15rem rgba(0,0,0,.3);
+}
+/*end base*/
+
+
+/*page_header*/
+.page_header {
+    background-image: url(../img/first_slide_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    font-size: 16rem;
+}
+.navigation {
+    padding: 55rem 21rem;
+}
+.navigation a {
+    font-family: 'Proxima_Nova_Regular';
+    color: #fff;
+    float: right;
+}
+.logo-1 {
+    width: 200rem;
+}
+.logo-2 {
+    display: none;
+}
+.page_header h1 {
+    margin: 40rem 0rem;
+}
+.page_header p {
+    margin: 40rem 0rem;
+}
+.page_header .items {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 75rem;
+    vertical-align: middle;
+    padding-top: 20rem;
+}
+.page_header .item-1 {
+    background-image: url(../img/oval_1.png);
+}
+
+.page_header .item-2 {
+    background-image: url(../img/oval_2.png);
+    margin-left: 20rem;
+}
+
+.page_header .item-3 {
+    background-image: url(../img/oval_3.png);
+    margin-left: 20rem;
+}
+
+.page_header .button_cta {
+     padding: 15rem 70rem;
+    font-size: 20rem;
+}
+
+.star {
+    background-image: url(../img/star.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 200rem;
+    height: 200rem;
+}
+/*end page_header*/
+
+/*composition*/
+.collections {
+    background-image: url(../img/icon-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 280rem;
+    background-color: #9277ea;
+    padding-top: 30rem;
+}
+
+.collections .items {
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 7rem solid #fff;
+    border-radius: 50%;
+    width: 200rem;
+    height: 200rem;
+    background-size: cover;
+}
+.collections .item-1 {
+    background-image: url(../img/collections_1.png);
+}
+.collections .item-2 {
+    background-image: url(../img/collections_2.png);
+}
+.collections .item-3 {
+    background-image: url(../img/collections_3.png);
+}
+.plus {
+    background-image: url(../img/plus.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 70rem;
+    height: 70rem;
+}
+/*end composition*/
+
+
+/*buy*/
+.form_buy h3 {
+    margin: 60rem 0rem;
+}
+.form_buy p {
+    font-family: 'Proxima_Nova_Bold';
+}
+.num {
+    width: 40rem;
+    margin-bottom: 0;
+    margin-left: 10rem;
+}
+.comment {
+    height: 150rem;
+}
+.form_buy .btn-group {
+    width: 100%;
+    height: 70rem;
+    margin-bottom: 50rem;
+}
+/*end buy*/
+
+
+
+@media (max-width:991.98px) {
+    
+    /*page_header*/
+    .navigation a {
+        font-size: 14px;
+    }
+    .star {
+        width: 150px;
+        height: 150px;
+    }
+    /*end page_header*/
+
+    /*composition*/
+    .collections {
+        height: 230px;
+    }
+    .collections .items {
+        width: 170px;
+        height: 170px;
+    }
+    /*end composition*/
+}
+
+@media (max-width:767.98px) {
+    /*base*/
+    h1 {
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    /*end base*/
+    
+    /*page_header*/
+    .navigation {
+        padding: 55px 21px 31px 21px;
+    }
+    .logo-1 {
+        display: none;
+    }
+    .logo-2 {
+        display: block;
+        width: 200px;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+    .star {
+        width: 150px;
+        height: 150px;
+        right: -50px;
+        bottom: -17px;
+        z-index: 1;
+        -moz-transform: rotate(-22.5deg);
+        -webkit-transform: rotate(-22.5deg);
+        -o-transform: rotate(-22.5deg);
+        -ms-transform: rotate(-22.5deg);
+        transform: rotate(-22.5deg);
+    }
+
+    /*end page_header*/
+    
+    /*composition*/
+    .collections {
+        height: 190px;
+        position: relative;
+        z-index: 2;
+    }
+    .collections .items {
+        width: 130px;
+        height: 130px;
+    }
+    .plus {
+        width: 30px;
+        height: 30px;
+        background-size: contain;
+    }
+    /*end composition*/
+}
+
+@media (max-width:575.98px) {
+    /*base*/
+    h1 {
+        font-size: 23px;
+        margin: 24px 0;
+    }
+    h2 {
+        font-size: 23px;
+    }
+    /*end base*/
+    
+    
+    /*page_header*/
+    .navigation a {
+        font-size: 10px;
+        float: none;
+    }
+    .page_header h1 {
+        margin: 24px 0;
+    }
+    .page_header h2 {
+        margin: 24px 0;
+    }
+    .page_header .items {
+        background-position: center;
+        height: 60px;
+    }
+    .page_header .item-2 {
+        margin-top: 20px;
+    }
+
+    .page_header .item-3 {
+        margin-top: 20px;
+    }
+    .star {
+        right: 0;
+        bottom: -80px;
+        width: 125px;
+        height: 125px;
+    }
+    /*end page_header*/
+    
+    /* composition*/
+    .collections {
+        height: 120px;
+    }
+    .collections .items {
+        width: 70px;
+        height: 70px;
+        border: 3px solid #fff;
+    }
+    .plus {
+        width: 15px;
+        height: 15px;
+        background-size: contain;
+    }
+    /*end composition*/
+    
+    
+    /*buy*/
+    .form_buy .btn-group {
+        height: 50px;
+    }
+    .btn-secondary {
+        padding-top: 15px;
+    }
+    /*end buy*/
+}
+
+
+@media (orientation: portrait) {
+    .page_header {
+        height: auto;
+        padding-bottom: 50px;
+    }
+}

@@ -1,0 +1,26 @@
+<svg width="14" height="15" viewBox="0 0 14 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>g_ico_white</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(2153 -1263)" figma:type="canvas">
+<g id="g_ico_white" figma:type="frame">
+<g id="Fill 1" figma:type="vector">
+<use xlink:href="#path0_fill" transform="translate(-2146.2 1268.79)" fill="#FFFFFF"/>
+</g>
+<g id="Fill 3" figma:type="vector">
+<use xlink:href="#path1_fill" transform="translate(-2152.26 1271.54)" fill="#FFFFFF"/>
+</g>
+<g id="Fill 5" figma:type="vector">
+<use xlink:href="#path2_fill" transform="translate(-2153 1266.89)" fill="#FFFFFF"/>
+</g>
+<g id="Fill 7" figma:type="vector">
+<use xlink:href="#path3_fill" transform="translate(-2152.26 1263)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 2.39845 4.89769C 3.12223 4.3641 3.5445 3.61483 3.70395 2.74726L 0 2.74726L 0 0L 6.38876 0C 6.45192 0.332626 6.53803 0.871781 6.53803 1.33298C 6.53803 3.61075 5.80585 5.42497 4.58552 6.6519L 2.39845 4.89769"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 2.2513 0C 2.81516 1.7031 4.32115 2.90058 6.0636 2.90107C 6.98479 2.90119 7.80746 2.64628 8.46204 2.14375L 10.6483 3.8987C 9.49017 5.06252 7.89262 5.6977 6.0636 5.6977C 3.41876 5.6977 1.12595 4.1181 0 1.81162L 2.2513 0"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 2.99211 1.80853C 2.84745 2.25364 2.76856 2.73166 2.76856 3.22949C 2.76856 3.72731 2.84745 4.20534 2.99211 4.65045L 0.739394 6.45898C 0.266612 5.48969 0 4.39207 0 3.22949C 0 2.06691 0.266612 0.969416 0.739394 0L 2.99211 1.80853"/>
+<path id="path3_fill" fill-rule="evenodd" d="M 6.06501 0C 7.84093 0 9.42842 0.672552 10.5943 1.84738L 8.68714 3.86158C 7.99375 3.19855 7.08048 2.79663 6.06501 2.79663C 4.32482 2.79663 2.81386 3.9946 2.25272 5.69758L 0 3.88905C 1.12961 1.5129 3.53894 0 6.06501 0"/>
+</defs>
+</svg>
