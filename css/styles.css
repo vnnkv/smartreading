@@ -160,6 +160,8 @@ textarea {
     -ms-transition: all 300ms ease;
     -o-transition: all 300ms ease;
     transition: all 300ms ease;
+     padding: 15rem 70rem;
+    font-size: 20rem;
 }
 .button_cta:hover {
     border-radius: 3rem;
@@ -224,10 +226,6 @@ textarea {
     margin-left: 20rem;
 }
 
-.page_header .button_cta {
-     padding: 15rem 70rem;
-    font-size: 20rem;
-}
 
 .star {
     background-image: url(../img/star.png);
